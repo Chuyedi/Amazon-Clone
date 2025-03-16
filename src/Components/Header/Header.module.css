@@ -45,6 +45,11 @@
     width: 100%;
     flex: 1;
 }
+.fixed{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
 .search select,
 .search input {
     padding: 10px;
